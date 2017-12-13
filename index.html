@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Song of the Day</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="player">
+            <div class="cover">
+                <img src="src/girlboss.jpeg" alt="">
+            </div>
+            <div class="info">
+                <div class="time">
+                    <div class="current">0:00</div>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <div class="song">Killers</div>
+                    <div class="singer">Kevin MacLeod</div>
+                </div>
+
+                <div class="controls">
+                    <a id="play-pause">
+                        <i class='fa fa-play-circle-o' aria-hidden="true"></i>
+                    </a>
+                </div>
+            
+                <div class="credits">
+                    <a href="src/credits.html">Credits</a>
+                </div>
+            </div>
+        </div>
+        <audio id="song" preload="auto" src="src/Killers.mp3"></audio>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+</html>
